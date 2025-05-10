@@ -87,19 +87,20 @@ func main() {
 	fmt.Println("Tipos de VALORES NULOS em GO: ")
 	// valores nulos sao chamados de valores iniciais ou valores zero(0)
 	// Ocorre quando voce dclara ela com a clausula vaga e com o tipo de dado, mas nao coloca um valor
-	var valorNULO1 string
+
+	var valorNULO1 string // Quando voce nao declara o valor na string ela retornara vazio
 	fmt.Println("Valor Nulo para string: ", valorNULO1)
 
-	var valorNULO2 int
+	var valorNULO2 int // Quando voce nao declara o valor no int ele retornara zero(0)
 	fmt.Println("Valor Nulo para inteiro: ", valorNULO2)
 
-	var valorNULO3 float64
+	var valorNULO3 float64 // Quando voce nao declara o valor no float ele retornara zero(0)
 	fmt.Println("Valor Nulo para float: ", valorNULO3)
 
-	var valorNULO4 bool // Quando voce nao declara o valor no boolean ele tera o valor de FALSE
+	var valorNULO4 bool // Quando voce nao declara o valor no boolean ele retornara o valor de FALSE
 	fmt.Println("Valor Nulo para boolean: ", valorNULO4)
 
-	var valorNulo5 error
+	var valorNulo5 error // Quando voce nao declara o valor no erro ele retornara <nil>
 	fmt.Println("Valor Nulo para erro: ", valorNulo5)
 	// FIM Valores Nulos
 	
